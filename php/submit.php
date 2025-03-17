@@ -3,6 +3,7 @@ require_once 'db.php';
 
 // Sanitize and get form data
 $organization = $_POST['organization'] ?? "";
+$pan = $_POST['pan'] ?? "";
 $phone = $_POST['phone'] ?? "";
 $email = $_POST['email'] ?? "";
 $document = $_POST['document'] ?? "";
@@ -22,10 +23,11 @@ if (!empty($_FILES['file_upload']['name'])) {
 }
 
 // Insert data into MySQL using PDO
-$sql = "INSERT INTO organizations (organization, phone, email, document, file_path) VALUES (:organization, :phone, :email, :document, :file_path)";
+$sql = "INSERT INTO amc (organization, pan, phone, email, document, file_path) VALUES (:organization, :pan, :phone, :email, :document, :file_path)";
 $stmt = $pdo->prepare($sql);
 $params = [
     ':organization' => $organization,
+    ':pan' => $pan,
     ':phone' => $phone,
     ':email' => $email,
     ':document' => $document,

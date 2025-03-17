@@ -2,7 +2,7 @@
 // Database connection using PDO
 $host = "localhost";
 $port = "8889";
-$dbname = "omcomputermaintenance";
+$dbname = "om";
 $user = "root";
 $pass = "root";
 

@@ -47,7 +47,7 @@ const initForm = () => {
       const formData = new FormData(this); // Collect form data
 
       try {
-        const response = await fetch("/php/submit.php", {
+        const response = await fetch('php/submit.php', {
           method: "POST",
           body: formData
         });
@@ -63,6 +63,8 @@ const initForm = () => {
     });
   }
 }
+
+
 
 const initVideoPlaylist = () => {
   // Ensure the video player exists on the page before running the script
@@ -123,11 +125,14 @@ const initVideoPlaylist = () => {
 
 
 
+
+
 document.addEventListener('DOMContentLoaded', () => {
-  AOS.init({
-    duration: 1000
-  });
   initMobileMenu();
   initVideoPlaylist();
   initForm();
+  let y = document.getElementById('chatest').textContent;
+let x = document.getElementById('test').innerHTML=y;
+console.log(x);
+console.log(y);
 });
