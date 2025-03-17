@@ -44,28 +44,55 @@
   </section>
 
   <section class="section">
-
     <div class="container">
-      <div class="box">
-        <div class="columns is-centered ">
+      <h3 class="title has-text-centered has-text-white is-size-4">Grab Your Products</h3>
+      <div class="columns  mt-5 is-variable  ">
 
-            <div class="column-is-4">
-              <h1 class="is-size-4 title has-text-white">About</h1>
-              <h2 class="is-size-5 subtitle has-text-white py-0">Branded</h2>
-
-            </div>
-            <div class="column-is-4 mx-4 ">
-                <img src="img\msi.png" alt="pci file" >
-            </div>
-            <div class="column-is-4 has-text-white">
-              <div class="is-size-4 mb-4">Rs 25,000
-              <p>Money return guarentee one month.</p>
-
+            <div class="column-is-4 mx-2">
+              <div class="card">
+                <div class="card-image has-text-centered px-6">
+                  <img src ="../img/msi.png " alt= "rpduct">
+                </div>
+                <div class="card-content">
+                  <p class="title is-size-5">MSI Laptop I5 </p>
+                  <p> Rs.25000</p>
+                </div>
+                <div class="card-footer ">
+                  <button class="button is-primary centered">Add To Cart</button>
+                </div>
               </div>
-              <button class="button is-primary">Add To Cart</button>
+            </div>
+            <div class="column-is-4 mx-2">
+              <div class="card">
+                <div class="card-image has-text-centered px-6">
+                  <img src ="../img/msi.png " alt= "rpduct">
+                </div>
+                <div class="card-content">
+                  <p class="title is-size-5">MSI Laptop I5 </p>
+                  <p> Rs.25000</p>
+                </div>
+                <div class="card-footer">
+                  <button class="button is-primary has-text-centered">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="column-is-4">
+              <div class="card">
+                <div class="card-image has-text-centered px-6">
+                  <img src ="../img/msi.png " alt= "rpduct">
+                </div>
+                <div class="card-content">
+                  <p class="title is-size-5">MSI Laptop I5 </p>
+                  <p> Rs.25000</p>
+                </div>
+                <div class="card-footer">
+                  <button class="button is-primary centered">Add To Cart</button>
+                </div>
+              </div>
             </div>
 
-        </div>
+
+        
       </div>
 
     </div>
