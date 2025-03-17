@@ -19,8 +19,8 @@
   <meta name="twitter:description" content="OM Computer Maintenance offers top-notch IT support, repairs, and maintenance services for businesses and individuals. Reliable, affordable, and fast service.">
   <meta name="twitter:image" content="https://omcomputermaintenance.com.np/om.jpg">
 
-  <link rel="stylesheet" href="/css/bulma.min.css">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="../css/bulma.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -42,11 +42,10 @@
       </div>
     </div>
   </section>
-
-  <section class="section">
+  <section class="section mx-0">
     <div class="container">
       <h3 class="title has-text-centered has-text-white is-size-4">Grab Your Products</h3>
-      <div class="columns  mt-5 is-variable  ">
+      <div class="columns is-variable  ">
 
             <div class="column-is-4 mx-2">
               <div class="card">
@@ -58,7 +57,7 @@
                   <p> Rs.25000</p>
                 </div>
                 <div class="card-footer ">
-                  <button class="button is-primary centered">Add To Cart</button>
+                  <button class="button is-primary is-fullwidth">Add To Cart</button>
                 </div>
               </div>
             </div>
@@ -72,7 +71,7 @@
                   <p> Rs.25000</p>
                 </div>
                 <div class="card-footer">
-                  <button class="button is-primary has-text-centered">Add To Cart</button>
+                  <button class="button is-primary is-fullwidth">Add To Cart</button>
                 </div>
               </div>
             </div>
@@ -86,7 +85,7 @@
                   <p> Rs.25000</p>
                 </div>
                 <div class="card-footer">
-                  <button class="button is-primary centered">Add To Cart</button>
+                  <button class="button is-primary is-fullwidth">Add To Cart</button>
                 </div>
               </div>
             </div>
